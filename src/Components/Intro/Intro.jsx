@@ -9,7 +9,7 @@ import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
+
 import { themeContext } from "../../Context";
 
 import { Link } from "react-scroll";
@@ -39,9 +39,10 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
+          <a href="https://github.com/souravdey425">
+            <img src={Github} alt="" />
+          </a>
           <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
         </div>
       </div>
       {/* right image side */}
