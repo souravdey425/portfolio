@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import mobile from "../../img/mobile.jpeg"
 import linkedinapp from "../../img/linkedinapp.png";
 import foodorder from "../../img/foodorder.png";
 import weatherapp from "../../img/weather.png";
@@ -24,6 +25,9 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
+      <SwiperSlide>
+          <img src={mobile} alt="" height={20} width={5}/>
+        </SwiperSlide>
         <SwiperSlide>
           <img src={linkedinlogin} alt="" />
         </SwiperSlide>
