@@ -20,10 +20,16 @@ const Portfolio = () => {
 
       {/* slider */}
       <Swiper
-        spaceBetween={30}
+        spaceBetween={100}
         slidesPerView={3}
         grabCursor={true}
         className="portfolio-slider"
+        breakpoints={{
+          320:{
+            spaceBetween:20,
+            slidesPerView:1,
+          },
+        }}
       >
       <SwiperSlide>
           <img src={mobile} alt="" height={20} width={5}/>

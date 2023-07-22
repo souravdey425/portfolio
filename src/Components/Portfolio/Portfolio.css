@@ -38,8 +38,20 @@
   border-radius: 19px;
 }
 @media screen and (max-width: 480px) {
-  .portfolio img {
-    width: calc(120%);
-    height: 12rem;
+  .portfolio{
+    height: fit-content;
   }
+  .portfolio img {
+    /* width: calc(120%);
+    height: 12rem; */
+    width: 18rem;
+    height: 17rem;
+  }
+  /* .portfolio .swiper {
+    overflow:hidden !important;
+  } */
+  .portfolio-slider .swiper-slide {
+    width: auto;
+  }
+ 
 }

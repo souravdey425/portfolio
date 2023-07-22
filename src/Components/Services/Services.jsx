@@ -27,9 +27,10 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+        Teaching 11th and 12th-grade students is a unique and rewarding experience.
           <br />
-          ispum is simpley dummy text of printing
+         I teach React, HTML, CSS, and JavaScript,and the strategies
+        <br/>I employ to make the learning journey engaging, informative, and enjoyable.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -49,7 +50,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs,Tailwind CSS"}
+            detail={"Nextjs,React,Backend,React Native"}
           />
         </div>
         {/* 3rd */}
