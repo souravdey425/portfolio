@@ -29,6 +29,19 @@ const Portfolio = () => {
             spaceBetween:20,
             slidesPerView:1,
           },
+          640:{
+            spaceBetween:10,
+            slidesPerView:1,
+          },
+          768:{
+            spaceBetween:200,
+            slidesPerView:2,
+          },
+          1024:{
+            spaceBetween:120,
+            slidesPerView:3,
+          }
+
         }}
       >
       <SwiperSlide>
